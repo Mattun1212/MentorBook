@@ -15,6 +15,7 @@
 		4659684126D0DFA600D7D658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4659683F26D0DFA600D7D658 /* LaunchScreen.storyboard */; };
 		4659684C26D0DFA600D7D658 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659684B26D0DFA600D7D658 /* MentorBookTests.swift */; };
 		4659685726D0DFA600D7D658 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659685626D0DFA600D7D658 /* MentorBookUITests.swift */; };
+		4659686926D0E52A00D7D658 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659686826D0E52A00D7D658 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4659685226D0DFA600D7D658 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4659685626D0DFA600D7D658 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		4659685826D0DFA600D7D658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4659686826D0E52A00D7D658 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4659683D26D0DFA600D7D658 /* Assets.xcassets */,
 				4659683F26D0DFA600D7D658 /* LaunchScreen.storyboard */,
 				4659684226D0DFA600D7D658 /* Info.plist */,
+				4659686826D0E52A00D7D658 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4659686926D0E52A00D7D658 /* Mentor.swift in Sources */,
 				4659683926D0DFA400D7D658 /* ViewController.swift in Sources */,
 				4659683526D0DFA400D7D658 /* AppDelegate.swift in Sources */,
 				4659683726D0DFA400D7D658 /* SceneDelegate.swift in Sources */,
